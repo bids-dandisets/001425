@@ -11,16 +11,144 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Sehara, Keisuke (2025) BraiDyn-BC: mouse cued-lever-pull task dataset (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001425/draft'
+citation: 'Kondo, Masashi; Sehara, Keisuke; Harukuni, Rie; Aoki, Ryo; Sugimoto, Shoya;
+  Tanaka, Yasuhiro R; Matsuzaki, Masanori; Nakae, Ken (2025) BraiDyn-BC: mouse cued-lever-pull
+  task dataset (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001425/draft'
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/057zh3y96
+    name: Department of Physiology, Graduate School of Medicine
+    schemaKey: Affiliation
+  email: m.kondo.neuro@gmail.com
+  identifier: 0000-0001-8818-8316
+  includeInCitation: true
+  name: Kondo, Masashi
+  roleName:
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/057zh3y96
+    name: Department of Physiology, Graduate School of Medicine
+    schemaKey: Affiliation
   email: seharak@m.u-tokyo.ac.jp
+  identifier: 0000-0003-4368-8143
   includeInCitation: true
   name: Sehara, Keisuke
   roleName:
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:Methodology
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/057zh3y96
+    name: Department of Physiology, Graduate School of Medicine
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Harukuni, Rie
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05f8a4p63
+    name: Brain Science Institute
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Aoki, Ryo
+  roleName:
+  - dcite:FormalAnalysis
+  - dcite:Methodology
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05f8a4p63
+    name: Brain Science Institute
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Sugimoto, Shoya
+  roleName:
+  - dcite:Methodology
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05f8a4p63
+    name: Brain Science Institute
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05f8a4p63
+    name: Graduate School of Brain Sciences
+    schemaKey: Affiliation
+  identifier: 0009-0000-4779-4934
+  includeInCitation: true
+  name: Tanaka, Yasuhiro R
+  roleName:
+  - dcite:Supervision
+  - dcite:FundingAcquisition
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/057zh3y96
+    name: Department of Physiology, Graduate School of Medicine
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04j1n1c04
+    name: Brain Functional Dynamics Collaboration Laboratory
+    schemaKey: Affiliation
+  - identifier: https://ror.org/057zh3y96
+    name: Department of Biological Sciences, Graduate School of Science
+    schemaKey: Affiliation
+  - identifier: https://ror.org/057zh3y96
+    name: International Research Center for Neurointelligence (WPI-IRCN)
+    schemaKey: Affiliation
+  email: mzakim@m.u-tokyo.ac.jp
+  identifier: 0000-0003-3872-4322
+  includeInCitation: true
+  name: Matsuzaki, Masanori
+  roleName:
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/055n47h92
+    name: Exploratory Research Center on Life and Living Systems
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00msqp585
+    name: Department of Human and Artificial Intelligent Systems
+    schemaKey: Affiliation
+  email: ken.nakae@gmail.com
+  identifier: 0000-0003-4183-1532
+  includeInCitation: true
+  name: Nakae, Ken
+  roleName:
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:Supervision
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: JP22H05163, JP22H05160, JP22H05154, JP22H05162, JP23K20309
+  identifier: https://ror.org/00hhkn466
+  name: JSPS KAKENHI
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: JP19dm0207088, JP24wm0625404, JP24wm0625001, JP24wm0625113
+  identifier: https://ror.org/004rtk039
+  name: AMED
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: JPMJMS2294
+  identifier: https://ror.org/00097mb19
+  name: JST
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Cooperative Study Program no. 19-102
+  identifier: https://ror.org/005t7z309
+  name: ExCELLS
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-04-28T01:23:44.851653+00:00'
 description: The BraiDyn-BC (Brain Dynamics underlying emergence of Behavioral Change)
   Database offers an extensive, multi-modal dataset that links wide-field calcium
@@ -51,7 +179,33 @@ manifestLocation:
 name: 'BraiDyn-BC: mouse cued-lever-pull task dataset'
 protocol:
 - https://doi.org/10.1101/2025.02.03.631599
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1101/2025.02.03.631599
+  name: A multimodal dataset linking wide-field calcium imaging to behavior changes
+    in mice during an operant lever-pull task
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2025.02.03.631599
+- name: The BraiDyn-BC dataset for the cued-lever-pull task
+  relation: dcite:IsIdenticalTo
+  repository: Matsuzaki Lab Data Sharing Platform
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://mmlab-repo.m.u-tokyo.ac.jp/r/Matsuzaki/BraiDyn-BC_CuedLeverPull
+- name: bdbc-data-pipeline
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/BraiDyn-BC/bdbc-data-pipeline
+- name: Tutorials for BraiDyn-BC datasets (English)
+  relation: dcite:IsDescribedBy
+  repository: Google Drive
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://drive.google.com/drive/folders/1QciTJd3tXkEGhz6782czB2dEO3fafm8M
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
