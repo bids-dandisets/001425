@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -31,15 +32,32 @@ description: The BraiDyn-BC (Brain Dynamics underlying emergence of Behavioral C
   are monitored. The dataset also features resting-state cortical activity and sensory-evoked
   responses, enhancing its utility for both learning-related and sensory-driven neural
   dynamics studies.
+ethicsApproval: []
 id: DANDI:001425/draft
 identifier: DANDI:001425
+keywords:
+- wide-field calcium imaging
+- behavioral tracking
+- operant conditioning task
+- sensory mapping
+- high-speed videography
+- head fixation
+- pupil tracking
+- clear-skull imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001425/versions/draft/assets/
 name: 'BraiDyn-BC: mouse cued-lever-pull task dataset'
+protocol:
+- https://doi.org/10.1101/2025.02.03.631599
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget:
+- Multi-timescale changes in neural and behavioral dynamics of mice across multiple
+  task-training sessions
 url: https://dandiarchive.org/dandiset/001425/draft
 version: draft
+wasGeneratedBy: []
