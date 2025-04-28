@@ -25,7 +25,6 @@ contributor:
   name: Kondo, Masashi
   roleName:
   - dcite:Conceptualization
-  - dcite:ContactPerson
   - dcite:FormalAnalysis
   - dcite:Investigation
   schemaKey: Person
@@ -200,7 +199,7 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/BraiDyn-BC/bdbc-data-pipeline
-- name: Tutorials for BraiDyn-BC datasets (English)
+- name: Tutorials for navigating through BraiDyn-BC datasets (English)
   relation: dcite:IsDescribedBy
   repository: Google Drive
   resourceType: dcite:Software
