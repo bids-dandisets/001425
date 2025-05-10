@@ -18,16 +18,16 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: one-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4865648101205
-  numberOfFiles: 1232
+  numberOfBytes: 5130129325040
+  numberOfFiles: 1288
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -35,14 +35,14 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - PlaneSegmentation
+  - OpticalChannel
   - OnePhotonSeries
   - ImagingPlane
-  - PlaneSegmentation
   - ProcessingModule
-  - OpticalChannel
   - EyeTracking
-  - PupilTracking
   - SpatialSeries
+  - PupilTracking
 citation: 'Kondo, Masashi; Sehara, Keisuke; Harukuni, Rie; Aoki, Ryo; Sugimoto, Shoya;
   Tanaka, Yasuhiro R; Matsuzaki, Masanori; Nakae, Ken (2025) BraiDyn-BC: mouse cued-lever-pull
   task dataset (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001425/draft'
