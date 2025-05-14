@@ -220,7 +220,7 @@ relatedResource:
   schemaKey: Resource
   url: https://doi.org/10.1101/2025.02.03.631599
 - name: The BraiDyn-BC dataset for the cued-lever-pull task
-  relation: dcite:IsDerivedFrom
+  relation: dcite:IsVariantFormOf
   repository: Matsuzaki Lab Data Sharing Platform
   resourceType: dcite:Dataset
   schemaKey: Resource
