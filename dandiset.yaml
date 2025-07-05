@@ -45,7 +45,7 @@ assetsSummary:
   - OnePhotonSeries
 citation: 'Kondo, Masashi; Sehara, Keisuke; Harukuni, Rie; Aoki, Ryo; Sugimoto, Shoya;
   Tanaka, Yasuhiro R; Matsuzaki, Masanori; Nakae, Ken (2025) BraiDyn-BC: mouse cued-lever-pull
-  task dataset (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001425/draft'
+  task dataset (Version 0.250705.0947) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001425/0.250705.0947'
 contributor:
 - affiliation:
   - identifier: https://ror.org/057zh3y96
@@ -192,8 +192,9 @@ description: The BraiDyn-BC (Brain Dynamics underlying emergence of Behavioral C
   are monitored. The dataset also features resting-state cortical activity and sensory-evoked
   responses, enhancing its utility for both learning-related and sensory-driven neural
   dynamics studies.
+doi: 10.48324/dandi.001425/0.250705.0947
 ethicsApproval: []
-id: DANDI:001425/draft
+id: DANDI:001425/0.250705.0947
 identifier: DANDI:001425
 keywords:
 - wide-field calcium imaging
@@ -207,7 +208,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001425/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001425/0.250705.0947/assets.yaml
 name: 'BraiDyn-BC: mouse cued-lever-pull task dataset'
 protocol:
 - https://doi.org/10.1101/2025.02.03.631599
@@ -263,6 +264,6 @@ schemaVersion: 0.6.9
 studyTarget:
 - Multi-timescale changes in neural and behavioral dynamics of mice across multiple
   task-training sessions
-url: https://dandiarchive.org/dandiset/001425/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001425/0.250705.0947
+version: 0.250705.0947
 wasGeneratedBy: []
