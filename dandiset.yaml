@@ -26,8 +26,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 8059026088902
-  numberOfFiles: 1837
+  numberOfBytes: 8064863266752
+  numberOfFiles: 1838
   numberOfSubjects: 25
   schemaKey: AssetsSummary
   species:
@@ -181,7 +181,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-04-28T01:23:44.851653+00:00'
-datePublished: '2025-05-14T06:02:19.132379+00:00'
+datePublished: '2025-07-05T09:47:54.642381+00:00'
 description: The BraiDyn-BC (Brain Dynamics underlying emergence of Behavioral Change)
   Database offers an extensive, multi-modal dataset that links wide-field calcium
   imaging of the mouse neocortex to comprehensive behavioral measurements during a
@@ -212,13 +212,13 @@ name: 'BraiDyn-BC: mouse cued-lever-pull task dataset'
 protocol:
 - https://doi.org/10.1101/2025.02.03.631599
 publishedBy:
-  endDate: '2025-05-14T06:02:19.132379+00:00'
-  id: urn:uuid:d8a95e39-e669-4568-ba34-da113c119a9f
+  endDate: '2025-07-05T09:47:54.642381+00:00'
+  id: urn:uuid:a1c7eda7-729a-4ca0-86ed-d5a925d5d0e2
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-05-14T06:02:19.132379+00:00'
+  startDate: '2025-07-05T09:47:54.642381+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:768942f5-f77b-48f7-84e1-cb1d25fe8d19
+  - id: urn:uuid:739c66e8-4f6d-462e-875a-2eefc1abcb54
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -250,6 +250,13 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://drive.google.com/drive/folders/1QciTJd3tXkEGhz6782czB2dEO3fafm8M
+- identifier: https://github.com/BraiDyn-BC/bdbc-nwb-explorer
+  name: bdbc-nwb-explorer
+  relation: dcite:Compiles
+  repository: bdbc-nwb-explorer
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/BraiDyn-BC/bdbc-nwb-explorer
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
