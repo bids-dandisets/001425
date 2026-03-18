@@ -1,5 +1,5 @@
 dandiset.yaml
 dataset_description.json
 derivatives/dataset_description.json
-sub-VG1-GC#105/ses-VG1-GC#105_2024-01-23_resting-state/ecephys/sub-VG1-GC#105_ses-VG1-GC#105_2024-01-23_resting-state_ecephys.nwb
-sub-VG1-GC#105/ses-VG1-GC#105_2024-01-24_resting-state/ecephys/sub-VG1-GC#105_ses-VG1-GC#105_2024-01-24_resting-state_ecephys.nwb
+sub-VG1+GC+105/ses-VG1+GC+105+2024+01+23+resting+state/ecephys/sub-VG1+GC+105_ses-VG1+GC+105+2024+01+23+resting+state_ecephys.nwb
+sub-VG1+GC+105/ses-VG1+GC+105+2024+01+24+resting+state/ecephys/sub-VG1+GC+105_ses-VG1+GC+105+2024+01+24+resting+state_ecephys.nwb
